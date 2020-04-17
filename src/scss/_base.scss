@@ -1,0 +1,22 @@
+// Imports
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:600&display=swap');
+
+//Reset
+body, html {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+// Palette
+$background-color-1: #dcb3ff;
+$background-color-2: #514cbf;
+
+$foreground-color-1: #f3ff57;
+$foreground-color-2: #cc47c3;
+$foreground-color-3: #47bfcc;
+
+// Font Stack
+$sans-serif: 'Work Sans', sans-serif;

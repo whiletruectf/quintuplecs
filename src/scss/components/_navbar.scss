@@ -1,0 +1,46 @@
+@import '../base';
+
+.navbar {
+
+  ul {
+    list-style: none;
+    display: flex;
+    width: 35vw;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    min-width: 700px;
+    font-family: $sans-serif;
+    margin: 0;
+
+    li {
+      margin: 0;
+      z-index: 10;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+      font-size: 3vh;
+    }
+  }
+
+  .underlines {
+    height: 1.5vh;
+    display: flex;
+    width: 35vw;
+    max-width: 1000px;
+    min-width: 700px;
+    justify-content: space-evenly;
+    position: relative;
+    bottom: 1.5vh;
+
+    .underline {
+      background-color: $foreground-color-2;
+      font-size: 3vh;
+      font-family: $sans-serif;
+      color: #000;
+      color: rgba(0, 0, 0, 0);
+      z-index: 0;
+    }
+  }
+}
